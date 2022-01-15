@@ -1,0 +1,6 @@
+#In the config you can specify a world and which command is run in that world.
+#You can use <player> to execute it on the player that joins the world.
+world:
+  Command: clear <player>
+world_nether:
+  Command: say Nether

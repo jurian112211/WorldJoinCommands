@@ -1,0 +1,6 @@
+name: Worldjoincommands
+version: '${project.version}'
+main: me.jurian.worldjoincommands.worldjoincommands.Worldjoincommands
+api-version: 1.12
+authors: [ Jurian ]
+description: A plugin which executes a command when a player joins a world
