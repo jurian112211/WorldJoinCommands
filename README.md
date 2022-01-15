@@ -18,3 +18,5 @@ Installation steps:
 
 6.Join the discord : https://discord.gg/FUjvJsacUA
 
+
+Spigot: https://www.spigotmc.org/resources/worldjoincommands.99230/
