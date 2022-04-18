@@ -1,0 +1,14 @@
+#----------WorldJoinCommands----------
+#In the file you can specify a world and which command is run in that world.
+# POSSIBLE EXECUTORS:
+# Console - Execute the commands as the console.
+# Player - Execute the commands as the player.
+# POSSIBLE PLACEHOLDERS:
+# all the placeholders you want, reminder that you must have the PlaceholderAPI extension installed for the placeholder you want to use.
+world:
+  Commands:
+    - say %player_name% joined this amazing world! :)
+    - give %player_name% stone_sword 1
+  permission: "worldjoincommands.examplepermission"
+  executor: "Console"
+  delay: 200   #100 is 5 seconds!! (it's in ticks)
