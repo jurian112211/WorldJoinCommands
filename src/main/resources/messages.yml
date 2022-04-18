@@ -1,0 +1,22 @@
+# Unlike some other plugins, EVERYTHING is translatable (console included!!!), except the information part in the console.
+messages:
+  reload-message: The config is reloaded!
+  bypassed-message: The joincommand was not executed on you because your bypassmode is enabled, to disable this type /wjc bypasstoggle.
+  bypassmode-disabled: The bypass-mode for admins is now disabled.
+  bypassmode-enabled: The bypass-mode for admins is now enabled.
+  specify-arguments: Please specify some arguments.
+  no-permission: You don't have enough permissions to do this.
+  type-help: Type /wjc help for help.
+
+console-messages:
+  placeholderapi-not-found: PlaceholderAPI was not found, therefore placeholders will not work.
+  config-loaded: configuration files loaded.
+  config-created: configuration files created and loaded.
+  activating-papi-hook: Amazing, PlaceholderAPI is detected, now activating the hook.
+  papi-hook-activated: The PlaceholderAPI hook is activated, have fun!
+
+helpmenu:
+  line1: Hey there, this are all the usable commands;
+  line2: /wjc help -- Provides you this menu.
+  line3: /wjc reload -- Reloads all the configuration files.
+  line4: /wjc bypasstoggle -- Toggles the bypassmode.
