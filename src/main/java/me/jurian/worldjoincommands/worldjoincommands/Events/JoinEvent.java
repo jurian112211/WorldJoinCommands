@@ -19,10 +19,6 @@ import java.util.Objects;
 public class JoinEvent implements Listener {
     private final Worldjoincommands plugin;
 
-    public JoinEvent(Worldjoincommands instance) {
-        this.plugin = instance;
-    }
-
     @EventHandler
     public void PlayerJoin(@NotNull PlayerChangedWorldEvent e) {
         String wname = e.getPlayer().getWorld().getName();
